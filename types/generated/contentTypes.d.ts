@@ -430,7 +430,7 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiInfoCarInfoCar extends Struct.SingleTypeSchema {
+export interface ApiInfoCarInfoCar extends Struct.CollectionTypeSchema {
   collectionName: 'info_cars';
   info: {
     displayName: 'InfoCars';
